@@ -81,9 +81,5 @@ public class SingletonDemo {
 //    public static SingletonDemo getInstance(){
 //        return Inner.instance;
 //    }
-    /**
-     * 5、枚举单例模式
-     */
-
 
 }

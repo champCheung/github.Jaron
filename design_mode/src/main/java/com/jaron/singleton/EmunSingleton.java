@@ -6,6 +6,9 @@ package com.jaron.singleton;
  * @Description TODO
  */
 public enum EmunSingleton {
+    /**
+     * 5、枚举单例模式
+     */
     INSTANCE;
 
     /**
