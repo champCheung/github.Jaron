@@ -15,20 +15,20 @@ public class SingletonDemo {
     /**
      * 指向自己实例的私有静态引用，主动创建
      */
-//    private static SingletonDemo instance = new SingletonDemo();
+    private static SingletonDemo instance = new SingletonDemo();
 
     /**
      * 私有化构造器
      */
-//    private SingletonDemo(){}
+    private SingletonDemo(){}
 
     /**
      * 以自己实例为返回值的静态的公有方法，静态工厂方法
      * @return
      */
-//    public static SingletonDemo getInstance(){
-//        return instance;
-//    }
+    public static SingletonDemo getInstance(){
+        return instance;
+    }
 
     /**
      * 2、懒汉模式
@@ -81,9 +81,5 @@ public class SingletonDemo {
 //    public static SingletonDemo getInstance(){
 //        return Inner.instance;
 //    }
-    /**
-     * 5、枚举单例模式
-     */
-
 
 }
